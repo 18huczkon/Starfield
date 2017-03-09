@@ -127,7 +127,7 @@ class JumboParticle extends NormalParticle
   {
     dX = 320;
     dY = 240;
-    dSpeed = Math.random();
+    dSpeed = Math.random() * 5;
     dTheta = Math.random() * (2*Math.PI);
     red = (int)(Math.random() * 255);
     green = (int)(Math.random() * 255);
